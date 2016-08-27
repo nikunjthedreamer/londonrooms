@@ -1,0 +1,182 @@
+.table-scrollable td {
+    font-size: 13px !important;
+    padding: 5px 10px !important;
+    vertical-align: middle !important;
+}
+.table-scrollable td .btn {
+    font-size: 11px;
+    padding: 2px 6px  !important;
+    text-transform: uppercase;
+}
+.table-scrollable.checker {
+ margin:0 !important;
+}
+.user_detail, .proprty_detail, .property_contract {
+    border: 1px solid #f1f1f1;
+    box-shadow: 0 2px 4px #f1f1f1;
+    margin: 10px 0;
+    padding: 10px 9px 10px 0;
+}
+.user_detail input[type="text"], .proprty_detail input[type="text"], .property_contract input[type="text"] {
+    width: 250px;
+}
+.proprty_detail .form-control {
+    width: 250px;
+}
+.info {
+  font-size: 11px;
+}
+.ten_det {
+  font-weight: bold;
+}
+.form .form-section {
+  border-bottom: 1px solid #e7ecf1;
+  margin: 15px 10px !important;
+  padding-bottom: 5px;
+}
+.form-group .input-inline {
+  margin-right: 0 !important;
+}
+.user_detail h3.form-section,.proprty_detail h3.form-section,.property_contract h3.form-section {
+    background:#32c5d2 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+    margin: 0 0 28px !important;
+    padding: 8px 10px;
+    width: 100% !important;
+}
+.user_detail, .proprty_detail, .property_contract {
+  border: 1px solid #32c5d2;
+  box-shadow: 0 2px 4px #f1f1f1;
+  margin: 10px 0;
+  padding: 0;float:left;
+}
+
+.form-group {
+  float: left;
+  width: 100%;
+}
+.profile-desc-text:nth-child(2n) {
+    background: #f4f4f4 none repeat scroll 0 0;
+    border: 0 none;
+    float: left;
+    width: 100% !important;
+}
+.profile-desc-text {
+    float: left;
+    font-size: 12px;
+    margin: 0 !important;
+    padding: 8px 10px;
+    vertical-align: middle;
+    width: 100%;
+}
+.profile-desc-text label {
+    margin: 0 15px 0 0;
+    text-align: left;
+    width: 150px;
+	font-size: 13px;
+}
+.caption-subject {
+    float: left;
+    margin: 0 0 9px;
+    width: 100%;
+}
+.tenat_det
+{
+	min-height:516px;
+}
+.ptenant_details {
+  border: 1px solid #e6e6e6;
+  float: left;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+.ptenant_details h3{font-size:20px !important}
+
+ .Tenant-detail {
+ border: 1px solid #c49f47;
+    box-shadow: 0 2px 4px #f1f1f1;
+    margin: 10px 0;
+    padding: 0;
+    float: left;
+}
+.tanant {
+    background: rgba(196, 159, 71, 0.9) none repeat scroll 0 0;
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 19px;
+    margin: 0 0 28px !important;
+    font-weight: 500;
+    padding: 8px;
+    width: 100% !important;
+}
+.Payment-Details
+{
+	 border: 1px solid rgba(71, 127, 196, 0.82);
+    box-shadow: 0 2px 4px #f1f1f1;
+    margin: 10px 0;
+    padding: 0;
+    float: left;
+}
+.Payment-section
+{
+	 background:rgba(71, 127, 196, 0.82) none repeat scroll 0 0;
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 19px;
+    margin: 0 0 28px !important;
+    font-weight: 500;
+    padding: 8px;
+    width: 100% !important;
+}
+.td_hdng {
+  font-weight: bold !important;
+}
+/*********5-8-2016****************/
+/* here you can put your own css to customize and override the theme */
+@media (min-width: 992px) {
+    .page-content-wrapper .page-content {
+        margin-left: 180px;
+        margin-top: 0;
+        min-height: 600px;
+        padding: 25px 20px 10px;
+    }
+    .page-sidebar {
+        width: 180px;
+        float: left;
+        position: relative;
+        margin-right: -100%;
+    }
+}
+.menu-text-display{
+    display: inline-block;
+}
+.page-header.navbar .page-logo {
+    float: left;
+    display: block;
+    width: 190px;
+    height: 46px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.leases_font{
+    font-size: 60px;
+    text-align: center;
+}
+.modal {
+    left: 50%;
+    bottom: auto;
+    right: auto;
+    padding: 0;
+    width: 500px;
+    margin-left: -250px;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-clip: padding-box;
+}

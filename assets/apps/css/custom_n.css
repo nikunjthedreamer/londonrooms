@@ -1,0 +1,63 @@
+.track-icon.icon-property {
+    background-image: url("../img/house.png");
+    background-position: center center;
+    background-size: cover;
+}
+.track-icon.icon-management{
+    background-image: url("../img/time.png");
+    background-position: center center;
+    background-size: cover;
+}
+.track-icon.icon-tenant{
+    background-image: url("../img/user.png");
+    background-position: center center;
+    background-size: cover;
+}
+.track-icon.icon-room{
+    background-image: url("../img/living-room.png");
+    background-position: center center;
+    background-size: cover;
+}
+.track-icon.icon-offer{
+    background-image: url("../img/offer.png");
+    background-position: center center;
+    background-size: cover;
+}
+.track-icon.icon-unit{
+    background-image: url("../img/home.png");
+    background-position: center center;
+    background-size: cover;
+}
+.track-icon.normal {
+    width: 32px;
+    height: 32px;
+}
+
+.track-icon.small {
+    width: 16px;
+    height: 16px;
+}
+
+.track-icon.medium {
+    width: 64px;
+    height: 64px;
+}
+
+.track-icon.large {
+    width: 128px;
+    height: 128px;
+}
+
+.icon-btn {
+    height: 80px;
+    min-width: 80px;
+}
+a span {
+    display: block;
+    vertical-align: middle;
+    font-family: "Montserrat", "TenantCloud Sans", Avenir, sans-serif;
+    margin: 0;
+    font-size: 11px;
+    font-weight: 600;
+    /*text-transform: uppercase;*/
+}
